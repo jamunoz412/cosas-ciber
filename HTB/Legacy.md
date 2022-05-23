@@ -1,7 +1,5 @@
-# HTB Legacy
+# Hack The Box - Legacy
 
-Hack The Box - Legacy
-======
 
 ## Exploración
 
