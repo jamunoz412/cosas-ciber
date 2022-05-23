@@ -28,4 +28,4 @@ Enlaces de interes
  * Ciberseguridad
      * [OverTheWire: Wargames](https://overthewire.org/wargames/)   
      * [HackTricks](https://book.hacktricks.xyz/welcome/readme)   
-     * [HackTheBox Classic](https://www.hackthebox.com/
+     * [HackTheBox Classic](https://www.hackthebox.com/)
