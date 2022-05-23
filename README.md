@@ -22,6 +22,7 @@ Enlaces de interes
 
 * [Editor MarkDown](https://mark.reaper.im/) 
 * [Sintasis MarkDown](https://markdown.es/sintaxis-markdown/) 
+* [Guia comandos GIT](https://rogerdudler.github.io/git-guide/index.es.html) 
 * S4vitar
     * [Web de S4vitar](https://s4vitar.github.io/)
     * [Github de S4vitar](https://github.com/s4vitar)
