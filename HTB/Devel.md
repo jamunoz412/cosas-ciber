@@ -1,7 +1,4 @@
-# HTB Devbel
-
-Hack The Box - Devel
-======
+# Hack The Box - Devel
 
 ## Exploración
 
