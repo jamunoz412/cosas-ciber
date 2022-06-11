@@ -1,5 +1,7 @@
 # Maquina Windows 7
 
+Maquina Windows 7 de 32 bits
+
 <pre>
 
 Nombre de host:                            THUNDERCATS
