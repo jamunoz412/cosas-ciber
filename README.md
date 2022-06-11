@@ -26,6 +26,7 @@ Enlaces de interes
 * S4vitar
     * [Web de S4vitar](https://s4vitar.github.io/)
     * [Github de S4vitar](https://github.com/s4vitar)
+    * [HTB Machines - Search Engine](https://htbmachines.github.io/)
  * Ciberseguridad
      * [OverTheWire: Wargames](https://overthewire.org/wargames/)   
      * [HackTricks](https://book.hacktricks.xyz/welcome/readme)   
