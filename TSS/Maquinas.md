@@ -4,4 +4,5 @@
 
 ### 32 bits
 
-* Windows XP
+* Windows XP - Administrador:password
+* Windows 7 - CPHE:password
