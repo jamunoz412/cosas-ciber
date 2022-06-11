@@ -8,3 +8,4 @@
 * Windows 7 - CPHE:password
 * Windows Server 2003 - Administrador:password
 * Windows Server 2008 - CPHE:password
+* Windows 10 - chm:Pocpasswordpoc1!
