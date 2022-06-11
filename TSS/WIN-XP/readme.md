@@ -1,8 +1,4 @@
-# Maquinas TSS
-
-Maquinas de pruebas TSS
-
-## Windows XP
+# Maquina Windows XP
 
 Maquina Windows XP de **32 bits**
 
