@@ -6,3 +6,4 @@
 
 * Windows XP - Administrador:password
 * Windows 7 - CPHE:password
+* Windows Server 2003 - Administrador:password
