@@ -1,6 +1,6 @@
 # Windows Server 2008
 
-Maquina Windows Server 2008 de **64 bits**
+Maquina Windows Server 2008 de **32 bits**
 
 <pre>
 
