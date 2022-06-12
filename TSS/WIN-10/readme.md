@@ -48,3 +48,8 @@ Revisión(es):                              10 revisión(es) instaladas.
                                            [10]: KB5000808
 Tarjeta(s) de red:                         2 Tarjetas de interfaz de red instaladas.
 </pre>
+
+
+poc1214POC!
+chm:password
+PasswordWindows7
