@@ -9,3 +9,7 @@
 * Windows Server 2003 - Administrador:password
 * Windows Server 2008 - CPHE:password
 * Windows 10 - chm:Pocpasswordpoc1!
+
+### 64 bits
+
+* Windows Server 2019 - chm:Pocpasswordpoc1!
