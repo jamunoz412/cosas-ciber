@@ -58,3 +58,5 @@ lo subimos por el ftp anonimo y a la escucha con:
 <pre>
 nc -nlvp 443
 </pre>
+
+Fijarse bien en la IP que conecta.
