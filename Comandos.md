@@ -32,9 +32,10 @@ rlwrap nc -nlvp 444
 Si es Linux podemos tunear la terminal recibida:
 
 <pre>
+scrip /dev/null -c bash
 -- CTLR + Z para poner en segundo plano la terminal
 stty raw -echo; fg
-reset
+reset xterm
 export TERM=xterm
 export shell=bash
 stty rows 51 columns 189
