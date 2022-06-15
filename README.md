@@ -28,6 +28,8 @@ Enlaces de interes
     * [Github de S4vitar](https://github.com/s4vitar)
     * [HTB Machines - Search Engine](https://htbmachines.github.io/)
     * [HTB Machines - Excel](https://docs.google.com/spreadsheets/d/1dzvaGlT_0xnT-PGO27Z_4prHgA8PHIpErmoWdlUrSoA/)
+    * [HTB Machines - Excel Seguimiento](https://docs.google.com/spreadsheets/d/1-g6fj_vb3g3E4DCnOmRfexBQtTv2zZaJgHiD4g6288U/)
+
  * Ciberseguridad
      * [OverTheWire: Wargames](https://overthewire.org/wargames/)   
      * [HackTricks](https://book.hacktricks.xyz/welcome/readme)   
