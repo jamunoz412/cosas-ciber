@@ -60,3 +60,25 @@ nc -nlvp 443
 </pre>
 
 Fijarse bien en la IP que conecta.
+
+
+## Metasploit
+
+### Iniciar la primera vez
+
+Arrancamos servicio de base de datos
+<pre>
+sudo service postgresql start
+</pre>
+
+Inicamos bbdd de metasploit
+
+<pre>
+sudo msfdb init
+</pre>
+
+Despues como siempre
+
+<pre>
+msfconsole
+</pre>
