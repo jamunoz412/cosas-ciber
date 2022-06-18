@@ -1,8 +1,6 @@
-#LaTeX
+# LaTeX
 
-Apuntes tomados a raiz de la visualización del video de Latex de S4vitar:
-
-[video de Latex de S4vitar](https://www.youtube.com/watch?v=riNRHoEOBeU)
+Apuntes tomados a raiz de la visualización del [video de Latex de S4vitar](https://www.youtube.com/watch?v=riNRHoEOBeU):
 
 ## Instalación
 
@@ -55,3 +53,13 @@ set nowrap
 
 </pre>
 
+## VSCODE
+
+Es mejor utilizar Visual Studio Code para la edición de Latex:
+<pre>
+sudo apt update && sudo apt install software-properties-common apt-transport-https wget
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -     
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo apt update 
+sudo apt install code
+</pre>
