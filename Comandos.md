@@ -33,7 +33,7 @@ Si es Linux podemos tunear la terminal recibida:
 
 <pre>
 scrip /dev/null -c bash
--- CTLR + Z para poner en segundo plano la terminal
+# CTLR + Z para poner en segundo plano la terminal
 stty raw -echo; fg
 reset xterm
 export TERM=xterm
