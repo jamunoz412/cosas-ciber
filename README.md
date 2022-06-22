@@ -34,3 +34,6 @@ Enlaces de interes
      * [OverTheWire: Wargames](https://overthewire.org/wargames/)   
      * [HackTricks](https://book.hacktricks.xyz/welcome/readme)   
      * [HackTheBox Classic](https://www.hackthebox.com/)
+ * Foros interesantes
+     * [Infayer: Maquinas resueltas y articulos curiosos](https://infayer.com/)   
+     
