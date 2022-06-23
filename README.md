@@ -29,6 +29,9 @@ Enlaces de interes
     * [HTB Machines - Search Engine](https://htbmachines.github.io/)
     * [HTB Machines - Excel](https://docs.google.com/spreadsheets/d/1dzvaGlT_0xnT-PGO27Z_4prHgA8PHIpErmoWdlUrSoA/)
     * [HTB Machines - Excel Seguimiento](https://docs.google.com/spreadsheets/d/1-g6fj_vb3g3E4DCnOmRfexBQtTv2zZaJgHiD4g6288U/)
+    * [S4vitar Youtube - Principal](https://www.youtube.com/c/s4vitar/videos)
+    * [S4viOnLive Youtube - Secundario - Machines](https://www.youtube.com/c/S4viOnLive/videos)
+    * [S4vitar Twich](https://www.twitch.tv/s4vitaar?lang=es)
 
 * Ciberseguridad
     * [HackTricks](https://book.hacktricks.xyz/welcome/readme)   
