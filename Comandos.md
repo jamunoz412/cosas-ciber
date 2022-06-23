@@ -17,6 +17,10 @@ Puertos UDP, Los primeros 100
 nmap -sU -sCV -p1-100 192.168.168.193 -oN targetedUDP
 </pre>
 
+Especifico de vulnerabilidades sin intrusión
+<pre>
+nmap -p139,445 --script="Vuln and Safe" 192.168.168.193 -oN vulnScan 
+</pre>
 ## Netcap
 
 Ponernos a la escucha:
