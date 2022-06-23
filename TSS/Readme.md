@@ -28,4 +28,5 @@
 
 ### Por hacer
 
-* Utilizar Hidra en Windows Server 2019 para ataque VNC
+* Intentar saber como averiguar las credenciales de Win 10
+* Intentar algo sobre Windows Server 2019 
