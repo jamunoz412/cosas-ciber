@@ -15,6 +15,11 @@ Puertos especificos
 nmap -sCV -p135,139,445,1688,3389,49152,49153,49154,49155,49156,49157 192.168.168.193 -oN targeted
 </pre>
 
+Puertos UDP, Los primeros 100
+<pre>
+nmap -sU -sCV -p1-100 192.168.168.193 -oN targetedUDP
+</pre>
+
 ## Netcap
 
 Ponernos a la escucha:
