@@ -17,6 +17,14 @@ Actualizar el repositorio
 	git push origin main
 </pre>
 
+
+Compartir recurso local con VM VMWare
+======
+<pre>
+sudo /usr/bin/vmhgfs-fuse .host:/ /home/j4munoff/compartida -o subtype=vmhgfs-fuse,allow_other
+</pre>
+
+
 Enlaces de interes
 ======
 * [Editor MarkDown](https://mark.reaper.im/) 
