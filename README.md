@@ -35,7 +35,7 @@ Enlaces de interes
 
 * Ciberseguridad
     * [HackTricks](https://book.hacktricks.xyz/welcome/readme)   
-    * [CrackStation](https://crackstation.net/)* Ciberseguridad
+    * [CrackStation](https://crackstation.net/)
     
 * Plataformas de Pentesting 
     * [HackTheBox Classic](https://www.hackthebox.com/)
@@ -46,6 +46,10 @@ Enlaces de interes
 * Programación - Scripting
     * [OverTheWire: Wargames](https://overthewire.org/wargames/)   
 
+* Pentesting - Windows
+    * [Comandos INTERESANTES - SMB - PowerShell](https://intrusionz3r0.github.io/posts/Windows/)
+    
 * Foros interesantes
     * [Infayer: Maquinas resueltas y articulos curiosos](https://infayer.com/)
+    * [Intrusionz3r0: Maquinas HTB y mas](https://intrusionz3r0.github.io/posts/Windows/)
      
