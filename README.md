@@ -19,10 +19,10 @@ Actualizar el repositorio
 
 Enlaces de interes
 ======
-
 * [Editor MarkDown](https://mark.reaper.im/) 
 * [Sintasis MarkDown](https://markdown.es/sintaxis-markdown/) 
 * [Guia comandos GIT](https://rogerdudler.github.io/git-guide/index.es.html) 
+
 * S4vitar
     * [Web de S4vitar](https://s4vitar.github.io/)
     * [Github de S4vitar](https://github.com/s4vitar)
@@ -30,12 +30,19 @@ Enlaces de interes
     * [HTB Machines - Excel](https://docs.google.com/spreadsheets/d/1dzvaGlT_0xnT-PGO27Z_4prHgA8PHIpErmoWdlUrSoA/)
     * [HTB Machines - Excel Seguimiento](https://docs.google.com/spreadsheets/d/1-g6fj_vb3g3E4DCnOmRfexBQtTv2zZaJgHiD4g6288U/)
 
- * Ciberseguridad
-     * [OverTheWire: Wargames](https://overthewire.org/wargames/)   
-     * [HackTricks](https://book.hacktricks.xyz/welcome/readme)   
-     * [HackTheBox Classic](https://www.hackthebox.com/)
-     * [CrackStation](https://crackstation.net/)
-      
- * Foros interesantes
-     * [Infayer: Maquinas resueltas y articulos curiosos](https://infayer.com/)   
+* Ciberseguridad
+    * [HackTricks](https://book.hacktricks.xyz/welcome/readme)   
+    * [CrackStation](https://crackstation.net/)* Ciberseguridad
+    
+* Plataformas de Pentesting 
+    * [HackTheBox Classic](https://www.hackthebox.com/)
+    * [TryHackMe](https://tryhackme.com/)
+    * [HackMyVM](https://hackmyvm.eu/)
+    * [VulnHub](https://www.vulnhub.com/)
+
+* Programación - Scripting
+    * [OverTheWire: Wargames](https://overthewire.org/wargames/)   
+
+* Foros interesantes
+    * [Infayer: Maquinas resueltas y articulos curiosos](https://infayer.com/)
      
