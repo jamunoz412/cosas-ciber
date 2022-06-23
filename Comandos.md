@@ -1,9 +1,6 @@
-# Comandos
+# Comandos interesantes
 
-Comandos interesantes
-======
-
-## Exploración
+## NMAP
 
 Todos los puertos, rapido y silencioso
 <pre>
