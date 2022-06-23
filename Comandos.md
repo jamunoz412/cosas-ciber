@@ -21,6 +21,12 @@ Especifico de vulnerabilidades sin intrusión
 <pre>
 nmap -p139,445 --script="Vuln and Safe" 192.168.168.193 -oN vulnScan 
 </pre>
+
+Enumeracion de directorios WEB básicos
+<pre>
+nmap --script http-enum -p80 10.10.10.180 -oN webScan
+</pre>
+
 ## Netcap
 
 Ponernos a la escucha:
