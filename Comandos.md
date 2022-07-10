@@ -44,7 +44,7 @@ rlwrap nc -nlvp 444
 Si es Linux podemos tunear la terminal recibida:
 
 <pre>
-scrip /dev/null -c bash
+script /dev/null -c bash
 # CTLR + Z para poner en segundo plano la terminal
 stty raw -echo; fg
 reset xterm
@@ -52,6 +52,12 @@ export TERM=xterm
 export shell=bash
 stty rows 51 columns 189
 
+</pre>
+
+Si la consola nos da problemas con **script /dev/null -c bash** podemos prbar con python:
+
+</pre>
+python3 -c 'import pty;pty.spawn("/bin/bash")'
 </pre>
 
 ## Samba
