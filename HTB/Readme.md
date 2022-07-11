@@ -1,3 +1,3 @@
 # Máquinas Hack the Box
 
-Aqui definiremos las normas de documentaciñn de máquinas **Hack The box**
+Aqui definiremos las normas de documentación de máquinas **Hack The box**
