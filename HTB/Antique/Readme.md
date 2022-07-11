@@ -225,6 +225,28 @@ bash: no job control in this shell
 lp@antique:~$ 
 </pre>
 
+Y aqui ya podemos ver la primera flag, del user.
+
+<pre>
+lp@antique:~$ ls
+ls
+exploit
+exploit.c
+telnet.py
+user.txt
+lp@antique:~$ cat user.txt
+cat user.txt
+2c0e2895a73ddd77e512d7069a15d852
+lp@antique:~$ 
+</pre>
+
+Podemos ahora hace un tratamiento de la consola:
+
+<pre>
+lp@antique:~$ python3 -c 'import pty;pty.spawn("/bin/bash")'   
+python3 -c 'import pty;pty.spawn("/bin/bash")'
+</pre>
+
 
 
 
