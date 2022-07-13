@@ -1,6 +1,6 @@
-# Máquina Stratosphere
+# Máquina Stratosphere - 10.10.10.64
 
-Máquina de dificultad fácil con los suguientes temas:
+Máquina de dificultad **Media** con los suguientes temas:
 
 * Apache Struts Exploitation (CVE-2017-5638) 
 * Python Library Hijacking (Privilege Escalation)
@@ -22,7 +22,7 @@ mysql -uadmin -padmin -c "select * from ..." dbname
 
 ### PYTHON
 
-#### Permisos de superusuario con privilegios a la consola
+#### Permisos de super usuario con privilegios a la consola
 
 <pre>
 impor os;
