@@ -62,3 +62,6 @@ Enlaces de interes
     * [Infayer: Maquinas resueltas y articulos curiosos](https://infayer.com/)
     * [Intrusionz3r0: Maquinas HTB y mas](https://intrusionz3r0.github.io/posts/Windows/)
      
+* Recursos Pentesting
+    * Escalada privilegios
+       * [Linux-Privilege-Escalation-Basics](https://github.com/RoqueNight/Linux-Privilege-Escalation-Basics)
