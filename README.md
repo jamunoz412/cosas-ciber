@@ -61,6 +61,10 @@ Enlaces de interes
 * Foros interesantes
     * [Infayer: Maquinas resueltas y articulos curiosos](https://infayer.com/)
     * [Intrusionz3r0: Maquinas HTB y mas](https://intrusionz3r0.github.io/posts/Windows/)
+    * [Preparación OSCP 1](https://iaraoz.medium.com/camino-al-oscp-75ed8dd78390)
+    * [Preparación OSCP 2](https://hackinglethani.com/es/como-aprobar-el-oscp/)
+    * [Maquinas resueltas TryhackMe y mas](https://guarina0x0.github.io/)
+    
      
 * Recursos Pentesting
     * Escalada privilegios
