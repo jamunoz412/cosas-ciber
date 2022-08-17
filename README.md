@@ -64,6 +64,9 @@ Enlaces de interes
     * [Preparación OSCP 1](https://iaraoz.medium.com/camino-al-oscp-75ed8dd78390)
     * [Preparación OSCP 2](https://hackinglethani.com/es/como-aprobar-el-oscp/)
     * [Maquinas resueltas TryhackMe y mas](https://guarina0x0.github.io/)
+    * [Foro de Xdann1](https://xdann1.github.io/)
+    * [CheatSheet de Kevin López](https://fackingamatherae.gitbook.io/cheatsheet/)
+    * [Sckull Blog - WriteUps](https://sckull.github.io/)
     
      
 * Recursos Pentesting
