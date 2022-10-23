@@ -46,12 +46,14 @@ Enlaces de interes
 * Ciberseguridad
     * [HackTricks](https://book.hacktricks.xyz/welcome/readme)   
     * [CrackStation](https://crackstation.net/)
+    * [GTFOBINS - escalada](gtfobins/mysql/#shell)
     
 * Plataformas de Pentesting 
     * [HackTheBox Classic](https://www.hackthebox.com/)
     * [TryHackMe](https://tryhackme.com/)
     * [HackMyVM](https://hackmyvm.eu/)
     * [VulnHub](https://www.vulnhub.com/)
+    * [JWT](https://jwt.io/)
 
 * Programación - Scripting
     * [OverTheWire: Wargames](https://overthewire.org/wargames/)   
