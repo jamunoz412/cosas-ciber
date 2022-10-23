@@ -17,6 +17,10 @@ Como se va por socks hay que habilitar socks5 en /etc/proxychains.conf
 <pre>
 socks5  127.0.0.1 1080
 </pre>
+Ahora desde la máquina atacante entramos en la maquina 2 con proxychains
+<pre>
+proxychains ssh aeolus@10.10.10.128
+</pre>
 
 
 ## SOCAT
