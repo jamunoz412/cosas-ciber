@@ -48,6 +48,7 @@ Enlaces de interes
     * [CrackStation](https://crackstation.net/)
     * [GTFOBINS - escalada](gtfobins/mysql/#shell)
     * [JWT](https://jwt.io/)
+    * [PayloadsAsTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
     
 * Plataformas de Pentesting 
     * [HackTheBox Classic](https://www.hackthebox.com/)
