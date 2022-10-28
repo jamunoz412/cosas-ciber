@@ -78,5 +78,23 @@ rpcclient -U "USUARIO%CONTRASEÑA" 10.10.10.100 -c 'enumdomusers'
 
 Con credenciales, listamos grupos del dominio:
 <pre>
-rpcclient -U "USUARIO%CONTRASEÑA" 10.10.10.100 -c 'enumdomusers'
+rpcclient -U "USUARIO%CONTRASEÑA" 10.10.10.100 -c 'enumdomgroups'
+</pre>
+
+
+Con credenciales, usuarios de un grupo. Pasamos el id de grupo:
+<pre>
+rpcclient -U "USUARIO%CONTRASEÑA" 10.10.10.100 -c 'querygroupmem 0x200'
+</pre>
+
+
+
+Con credenciales, Info de un  usuario por su id:
+<pre>
+rpcclient -U "USUARIO%CONTRASEÑA" 10.10.10.100 -c 'queryguser 0x1f4'
+</pre>
+
+Con credenciales, Info de un  usuario por su id:
+<pre>
+rpcclient -U "USUARIO%CONTRASEÑA" 10.10.10.100 -c 'queryguser 0x1f4'
 </pre>
