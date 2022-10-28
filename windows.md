@@ -56,3 +56,27 @@ Visualizar sin credenciales:
 smbclient -L //10.10.10.100/Replication -N
 
 </pre>
+
+### rpcclient
+
+Una vez que tenemos credencales nos podemos conectar co  **rpcclient**:
+
+<pre>
+rpcclient -U "USUARIO%CONTRASEÑA" 10.10.10.100
+</pre>
+
+Tambien es posible a veces conectarse con sesion null:
+<pre>
+rpcclient -U "" 10.10.10.100 -N
+</pre>
+
+Con credenciales, listamos usuarios del dominio:
+<pre>
+rpcclient -U "USUARIO%CONTRASEÑA" 10.10.10.100 -c 'enumdomusers'
+</pre>
+
+
+Con credenciales, listamos grupos del dominio:
+<pre>
+rpcclient -U "USUARIO%CONTRASEÑA" 10.10.10.100 -c 'enumdomusers'
+</pre>
