@@ -2,7 +2,7 @@
 
 El objetivo de esta página es documentar los comandos mas utilizados en enumeración y explotaciónde máquinas Windows.
 
-### Crackmapexek
+### crackmapexek
 
 Para ver info de un equipo sin credenciales:
 
@@ -46,4 +46,13 @@ Con credenciales:
 
 <pre>
 smbmap -H 10.10.10.100 -u 'SVC_TGS' -p 'GPPstillStandingStrong2k18' -r Groups
+</pre>
+
+### smbclient
+
+Visualizar sin credenciales:
+
+<pre>
+smbclient -L //10.10.10.100/Replication -N
+
 </pre>
