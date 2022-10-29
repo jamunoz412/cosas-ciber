@@ -71,6 +71,7 @@ Enlaces de interes
     * [Foro de Xdann1](https://xdann1.github.io/)
     * [CheatSheet de Kevin López](https://fackingamatherae.gitbook.io/cheatsheet/)
     * [Sckull Blog - WriteUps](https://sckull.github.io/)
+    * [Windows Cheet-Sheet by Intrusionz3r0](https://intrusionz3r0.github.io/posts/Windows/)
     
      
 * Recursos Pentesting
