@@ -179,3 +179,8 @@ ntpdate 10.10.10.100
 </pre>
 
 Con **date -s** podemos volver a dejar la fecha igual. Investigar como.
+
+
+## Enlaces de interes
+
+[Windows Cheet-Sheet by Intrusionz3r0](https://intrusionz3r0.github.io/posts/Windows/)
