@@ -28,6 +28,7 @@ Para conectar a un host sin credenciales, nos lista unidades sin credenciales:
 
 <pre>
 smbmap -H 10.10.10.1000
+smbmap -H 10.10.10.237 -u 'null'
 </pre>
 
 Para conectar ver lo que tiene un recurso, paramero -r:
