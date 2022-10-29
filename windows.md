@@ -206,6 +206,11 @@ ntpdate 10.10.10.100
 
 Con **date -s** podemos volver a dejar la fecha igual. Investigar como.
 
+### ver certificado SSL
+
+<pre>
+echo | openssl s_client -connect 10.129.173.50:443  
+</pre>
 
 ## Enlaces de interes
 
