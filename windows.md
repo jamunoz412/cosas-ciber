@@ -143,6 +143,15 @@ psexec.py active.htb/Administrator:CONTRASEÑA@10.10.10.100 cmd.exe
 
 ## TRUCOS
 
+### Enumerar SYSVOL
+
+Si se puede enumerar SYSVOL hay que buscar el ficehro Groups.txt, (Policies/xxxx/MACHINE/Preferences/Group).
+Como microsoft publicó la clave de desencriptación se puede utilizar **gpp-decript**.
+
+<pre>
+gpp-decrypt 'CONTRASEÑAEMCRIPTADA'
+</pre>
+
 ### Sincronizar reloj
 
 Para ataques ASREPRoast o kerbrute hay que sincronizar el reloj con el de la maquina active directory:
