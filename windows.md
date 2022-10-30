@@ -116,7 +116,13 @@ rpcclient -U "USUARIO%CONTRASEÑA" 10.10.10.100 -c 'querygdispinfo'
 ### rpcenum
 
 Herramienta de s4vitar para enumerar usuarios y grupos de un dominio. Revisar m´áquina Active de HTB para ver como configurarla.
+### SecretDump
 
+Si nos hacemos con copia de la SAM y el SYSTEM de c:\windows\System32\config:
+
+<pre>
+impacket-secretsdump -sam SAM.back -system SYSTEM.back LOCAL
+</pre>
 ### ASREPRoast Attack
 
 Cuando solo se dispone de usuarios, sin credenciales, **y estando en un entorno de active directory** se puede intentar un ASREPRoast Attack con GetNPUsers:
