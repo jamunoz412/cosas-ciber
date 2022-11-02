@@ -25,3 +25,12 @@ Buscar desde la ruta actual ficheros con patrón de nombre
 ~~~
 find \-name \*config\*
 ~~~
+
+
+### grep
+
+Buscar, de forma recursiva y con keis insemsitive archivos que contengan palabra
+
+~~~
+grep -riE "pass|password" 
+~~~
