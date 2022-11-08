@@ -128,6 +128,14 @@ Y luego **bash -p**
 
 ## OTROS
 
+Ver trazas icmp:
+
+<pre>
+sudo tcpdump -i tun0 icmp -n
+</pre>
+
+
+
 Nos mandamos consola:
 
 <pre>
@@ -164,3 +172,4 @@ Si en la lista de pribilehios aparece **/usr/bin/find**
 <pre>
 /usr/bin/find . -exec /bin/sh -p \; -quit
 </pre>
+
