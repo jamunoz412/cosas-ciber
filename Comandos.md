@@ -125,7 +125,26 @@ os.system("chmod u+s /bin/bash")
 
 Y luego **bash -p**
 
+## Puertos
+ver si un puerto está abierto en linux:
 
+~~~
+lsof -i:8888
+~~~ 
+
+## CHISEL
+
+### Servidor
+
+~~~
+sudo ./chisel server --reverse -p 1234
+~~~
+
+### Cliente a un puerto
+
+~~~
+chisel.exe client 172.16.196.198:1234 R:8888:127.0.0.1:8888
+~~~
 ## OTROS
 
 Ver trazas icmp:
