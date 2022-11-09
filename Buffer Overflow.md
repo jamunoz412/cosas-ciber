@@ -41,6 +41,12 @@ Crear bytearray
 !mona bytearray
 </pre>
 
+Crear bytearray excluyendo badchars
+<pre>
+!mona bytearray -cpb "\x00"
+!mona bytearray -b "\x00"
+</pre>
+
 Ver los módulos
 <pre>
 !mona modules
@@ -48,8 +54,15 @@ Ver los módulos
 
 Ver saltos al ESP
 <pre>
-!mona find -s "\xff\xc4" -m Qt5Core.dll
+!mona find -s "\xff\xe4" -m Qt5Core.dll
+!mona jmp -r esp -cpb "\x00"
 </pre>
+
+Comparar Byte ARRAY. La dirección es la del ESP
+<pre>
+!mona compare -f C:\Users\j4munoff\Desktop\SLmail\bytearray.bin -a 0249A128
+</pre>
+
 
 ### msfvenom
 
