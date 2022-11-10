@@ -42,6 +42,7 @@ Enlaces de interes
     * [S4viOnLive Youtube - Secundario - Machines](https://www.youtube.com/c/S4viOnLive/videos)
     * [S4vitar Twich](https://www.twitch.tv/s4vitaar?lang=es)
     * [SaviNotes](https://s4vinotes.michellopez.org/validation.html)
+    * [S4vitar Odysee](https://odysee.com/@s4vitar:f)
 
 * Ciberseguridad
     * [HackTricks](https://book.hacktricks.xyz/welcome/readme)   
