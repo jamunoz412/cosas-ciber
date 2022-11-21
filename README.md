@@ -43,6 +43,7 @@ Enlaces de interes
     * [S4vitar Twich](https://www.twitch.tv/s4vitaar?lang=es)
     * [SaviNotes](https://s4vinotes.michellopez.org/validation.html)
     * [S4vitar Odysee](https://odysee.com/@s4vitar:f)
+    * [S4vitar MAchines - Nuevo buscador](https://machines-javiermolines.vercel.app/)
 
 * Ciberseguridad
     * [HackTricks](https://book.hacktricks.xyz/welcome/readme)   
