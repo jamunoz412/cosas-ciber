@@ -44,11 +44,12 @@ Enlaces de interes
     * [SaviNotes](https://s4vinotes.michellopez.org/validation.html)
     * [S4vitar Odysee](https://odysee.com/@s4vitar:f)
     * [S4vitar MAchines - Nuevo buscador](https://machines-javiermolines.vercel.app/)
+    * [Curso S4vitar Hacking Mastermind](https://ns2.elhacker.net/descargas/Cursos/Introducci%C3%B3n%20Hacking%20%C3%89tico%20-%20S4vitar/)
 
 * Ciberseguridad
     * [HackTricks](https://book.hacktricks.xyz/welcome/readme)   
     * [CrackStation](https://crackstation.net/)
-    * [GTFOBINS - escalada](gtfobins/mysql/#shell)
+    * [GTFOBINS - escalada](https://gtfobins.github.io/)
     * [JWT](https://jwt.io/)
     * [PayloadsAsTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
     
