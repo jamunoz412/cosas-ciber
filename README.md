@@ -43,7 +43,7 @@ Enlaces de interes
     * [S4vitar Twich](https://www.twitch.tv/s4vitaar?lang=es)
     * [SaviNotes](https://s4vinotes.michellopez.org/validation.html)
     * [S4vitar Odysee](https://odysee.com/@s4vitar:f)
-    * [S4vitar MAchines - Nuevo buscador](https://machines-javiermolines.vercel.app/)
+    * [S4vitar MAchines - Nuevo buscador](https://infosecmachines.io/)
     * [Curso S4vitar Hacking Mastermind](https://ns2.elhacker.net/descargas/Cursos/Introducci%C3%B3n%20Hacking%20%C3%89tico%20-%20S4vitar/)
 
 * Ciberseguridad
