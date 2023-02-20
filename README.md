@@ -36,10 +36,10 @@ Enlaces de interes
     * [Web de S4vitar](https://s4vitar.github.io/)
     * [Github de S4vitar](https://github.com/s4vitar)
     * [HTB Machines - Search Engine](https://htbmachines.github.io/)
-    * [HTB Machines - Excel](https://docs.google.com/spreadsheets/d/1dzvaGlT_0xnT-PGO27Z_4prHgA8PHIpErmoWdlUrSoA/){:target="_blank"}
+    * [HTB Machines - Excel](https://docs.google.com/spreadsheets/d/1dzvaGlT_0xnT-PGO27Z_4prHgA8PHIpErmoWdlUrSoA/)
     * [HTB Machines - Excel Seguimiento](https://docs.google.com/spreadsheets/d/1-g6fj_vb3g3E4DCnOmRfexBQtTv2zZaJgHiD4g6288U/)
-    * [S4vitar Youtube - Principal](https://www.youtube.com/c/s4vitar/videos){:target="_blank"}
-    * [S4viOnLive Youtube - Secundario - Machines](https://www.youtube.com/c/S4viOnLive/videos){:target="_blank"}
+    * [S4vitar Youtube - Principal](https://www.youtube.com/c/s4vitar/videos
+    * [S4viOnLive Youtube - Secundario - Machines](https://www.youtube.com/c/S4viOnLive/videos)
     * [S4vitar Twich](https://www.twitch.tv/s4vitaar?lang=es)
     * [SaviNotes](https://s4vinotes.michellopez.org/validation.html)
     * [S4vitar Odysee](https://odysee.com/@s4vitar:f)
@@ -47,17 +47,17 @@ Enlaces de interes
     * [Curso S4vitar Hacking Mastermind](https://ns2.elhacker.net/descargas/Cursos/Introducci%C3%B3n%20Hacking%20%C3%89tico%20-%20S4vitar/)
 
 * Ciberseguridad
-    * [HackTricks](https://book.hacktricks.xyz/welcome/readme){:target="_blank"}
-    * [CrackStation](https://crackstation.net/){:target="_blank"}
-    * [GTFOBINS - escalada](https://gtfobins.github.io/){:target="_blank"}
-    * [JWT](https://jwt.io/){:target="_blank"}
-    * [PayloadsAsTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings){:target="_blank"}
+    * [HackTricks](https://book.hacktricks.xyz/welcome/readme)
+    * [CrackStation](https://crackstation.net/)
+    * [GTFOBINS - escalada](https://gtfobins.github.io/)
+    * [JWT](https://jwt.io/)
+    * [PayloadsAsTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
     
 * Plataformas de Pentesting 
-    * [HackTheBox Classic](https://www.hackthebox.com/){:target="_blank"}
-    * [TryHackMe](https://tryhackme.com/){:target="_blank"}
-    * [HackMyVM](https://hackmyvm.eu/){:target="_blank"}
-    * [VulnHub](https://www.vulnhub.com/){:target="_blank"}
+    * [HackTheBox Classic](https://www.hackthebox.com/)
+    * [TryHackMe](https://tryhackme.com/)
+    * [HackMyVM](https://hackmyvm.eu/)
+    * [VulnHub](https://www.vulnhub.com/)
 
 * Programación - Scripting
     * [OverTheWire: Wargames](https://overthewire.org/wargames/)   
