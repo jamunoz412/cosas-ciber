@@ -76,7 +76,7 @@ Enlaces de interes
     * [CheatSheet de Kevin López](https://fackingamatherae.gitbook.io/cheatsheet/)
     * [Sckull Blog - WriteUps](https://sckull.github.io/)
     * [Windows Cheet-Sheet by Intrusionz3r0](https://intrusionz3r0.github.io/posts/Windows/)
-    
+    * [Pentesting, Ethical Hacking & Offensive Security - Castellano](https://pentesting.mrw0l05zyn.cl/)
      
 * Recursos Pentesting
     * Escalada privilegios
