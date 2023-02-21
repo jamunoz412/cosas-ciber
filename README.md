@@ -65,7 +65,7 @@ Enlaces de interes
 
 * Pentesting - Windows
     * [Comandos INTERESANTES - SMB - PowerShell](https://intrusionz3r0.github.io/posts/Windows/)
-    
+    * [Active Directory Penetration Testing - Castellano](https://activedirectory.mrw0l05zyn.cl/)
 * Foros interesantes
     * [Infayer: Maquinas resueltas y articulos curiosos](https://infayer.com/)
     * [Intrusionz3r0: Maquinas HTB y mas](https://intrusionz3r0.github.io/posts/Windows/)
@@ -81,3 +81,4 @@ Enlaces de interes
 * Recursos Pentesting
     * Escalada privilegios
        * [Linux-Privilege-Escalation-Basics](https://github.com/RoqueNight/Linux-Privilege-Escalation-Basics)
+      
