@@ -73,11 +73,11 @@ Enlaces de interes
     * [Preparación OSCP 2](https://hackinglethani.com/es/como-aprobar-el-oscp/)
     * [Maquinas resueltas TryhackMe y mas](https://guarina0x0.github.io/)
     * [Foro de Xdann1](https://xdann1.github.io/)
-    * [CheatSheet de Kevin López](https://fackingamatherae.gitbook.io/cheatsheet/)
     * [Sckull Blog - WriteUps](https://sckull.github.io/)
     * [Windows Cheet-Sheet by Intrusionz3r0](https://intrusionz3r0.github.io/posts/Windows/)
-    
      
 * Recursos Pentesting
-    * Escalada privilegios
-       * [Linux-Privilege-Escalation-Basics](https://github.com/RoqueNight/Linux-Privilege-Escalation-Basics)
+    * [Pentesting, Ethical Hacking & Offensive Security - Castellano](https://pentesting.mrw0l05zyn.cl/)
+    * [Active Directory Penetration Testing](https://activedirectory.mrw0l05zyn.cl/)
+    * [Linux-Privilege-Escalation-Basics](https://github.com/RoqueNight/Linux-Privilege-Escalation-Basics)
+    * [CheatSheet de Kevin López](https://fackingamatherae.gitbook.io/cheatsheet/)
