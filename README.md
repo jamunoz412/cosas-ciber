@@ -81,3 +81,6 @@ Enlaces de interes
     * [Active Directory Penetration Testing](https://activedirectory.mrw0l05zyn.cl/)
     * [Linux-Privilege-Escalation-Basics](https://github.com/RoqueNight/Linux-Privilege-Escalation-Basics)
     * [CheatSheet de Kevin López](https://fackingamatherae.gitbook.io/cheatsheet/)
+* Cursos
+    * [Udemi Alvaro Chirou](https://www.udemy.com/) 
+    * [HackBySecurity](https://academy.hackbysecurity.com/)
