@@ -76,6 +76,7 @@ Enlaces de interes
     * [Sckull Blog - WriteUps](https://sckull.github.io/)
     * [Windows Cheet-Sheet by Intrusionz3r0](https://intrusionz3r0.github.io/posts/Windows/)
     * [Jorge Testa - Reportes interesantes](https://www.jorgetesta.tech/posts)
+    * [DeepHacking](https://deephacking.tech/)
      
 * Recursos Pentesting
     * [Pentesting, Ethical Hacking & Offensive Security - Castellano](https://pentesting.mrw0l05zyn.cl/)
