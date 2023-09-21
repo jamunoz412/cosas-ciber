@@ -86,3 +86,6 @@ Enlaces de interes
 * Cursos
     * [Udemi Alvaro Chirou](https://www.udemy.com/) 
     * [HackBySecurity](https://academy.hackbysecurity.com/)
+* EJPTv2
+    * [TryHAckMe labs](https://medium.com/@maisamnoyan/tryhackme-labs-to-prepare-for-the-ejpt-exam-33fa0efd0cbe)
+    * [eJPTv2 Preparation](https://github.com/xalgord/ejPTv2-Preparation) 
